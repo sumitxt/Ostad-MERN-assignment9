@@ -31,12 +31,13 @@
 }
 
 .button-box {
-    width: 220px;
+    width: 60%;
     margin: 35px 20%;
     position: relative;
     box-shadow: 0 0 20px 9px #ff61241f;
     border-radius: var(--border);
     background-color: gray;
+    text-align: center;
 }
 
 .toggle-btn {
@@ -52,12 +53,13 @@
     top:0;
     left:0;
     position: absolute;
-    width:110px;
+    width:50%;
     height:100%;
     /* background: linear-gradient(to right, #ff105f, #ffad06); */
     background-color: var(--bgColor);
     border-radius: var(--border);
     transition: 0.5s;
+
 }
 
 .social-icons{
@@ -82,8 +84,10 @@
 }
 
 .input-field{
-    width:205px;
-    margin: 5px 0;
+    /* width:205px; */
+    width: 84%;
+    /* margin: 5px 0; */
+    margin: 1%;
     border-top:0;
     border-left: 0;
     border-right: 0;
@@ -92,10 +96,12 @@
     background: transparent;
 }
 #first-name{
-    width:100px;
+    /* width:100px; */
+    width: 40%;
 }
 #last-name{
-    width:100px;
+    /* width:100px; */
+    width: 40%;
 }
 .submit-btn{
     width: 80%;
