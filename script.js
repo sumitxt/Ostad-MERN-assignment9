@@ -2,10 +2,11 @@ let x = document.getElementById("login")
 let y = document.getElementById("register")
 let z = document.getElementById("btn")
 
-document.head = document.head || document.getElementsByTagName('head')[0];
+// document.head = document.head || document.getElementsByTagName('head')[0];
+//document.title= document.title || document.getElementByTagName('title)[0]
 
 function changeFavicon(src) {
-    var link = document.createElement('link'),
+    let link = document.createElement('link'),
         oldLink = document.getElementById('dynamic-favicon');
         link.id = 'dynamic-favicon';
         link.rel = 'icon';

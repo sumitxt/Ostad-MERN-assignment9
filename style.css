@@ -114,6 +114,10 @@ span{
     /* position: absolute; */
 }
 
+#terms{
+    text-decoration: none;
+}
+
 #login{
     left: 50px;
 }
