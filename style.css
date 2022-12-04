@@ -137,3 +137,13 @@ span{
 #register{
     left: 450px;
 }
+
+#signup{
+    margin-top: 5%;
+    font-size:12px;
+}
+
+#signup a{
+    text-decoration: none;
+    color:var(--bgColor)
+}
