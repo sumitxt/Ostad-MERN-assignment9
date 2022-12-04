@@ -7,8 +7,8 @@ let z = document.getElementById("btn")
 
 function changeFavicon(src) {
     let link = document.createElement('link'),
-        oldLink = document.getElementById('dynamic-favicon');
-        link.id = 'dynamic-favicon';
+        oldLink = document.getElementById('favicon');
+        link.id = 'favicon';
         link.rel = 'icon';
     link.href = src;
     if (oldLink) {

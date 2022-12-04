@@ -21,6 +21,7 @@
     background: white;
     padding: 5px;
     overflow: hidden;
+    border-radius: 1rem 10rem 1rem 10rem;
 }
 
 .button-box {
@@ -28,7 +29,7 @@
     margin: 35px auto;
     position: relative;
     box-shadow: 0 0 20px 9px #ff61241f;
-    border-radius: 30px;
+    border-radius: 1rem 10rem 1rem 10rem;
     background-color: gray;
 }
 
@@ -49,7 +50,7 @@
     height:100%;
     /* background: linear-gradient(to right, #ff105f, #ffad06); */
     background-color: hsl(158, 36%, 37%);
-    border-radius: 30px;
+    border-radius: 1rem 10rem 1rem 10rem;
     transition: 0.5s;
 }
 
@@ -102,7 +103,7 @@
     color: white;
     border: 0;
     outline: none;
-    border-radius: 30px;
+    border-radius: 1rem 10rem 1rem 10rem;
 }
 .check-box{
     margin: 30px 10px 30px 0;
