@@ -13,49 +13,36 @@
     <div class="hero">
         <div class="form-box">
             <div class="button-box">
-                <div id="btn">    </div>
+                <div id="btn"> </div>
                 <button type="button" class="toggle-btn" onclick="login()">Login</button>
                 <button type="button" class="toggle-btn" onclick="register()">Register</button>
 
             </div>
             <div class="social-icons">
-                <img src="fb.png">
-                <img src="tw.png">
-                <img src="gp.png">
+                <img src="/images/icons8-facebook-circled.gif" alt="FB">
+                <img src="/images/icons8-twitter.gif" alt="TW">
+                <img src="/images/icons8-gmail-logo.gif" alt="Google">
             </div>
             <form id="login" class="input-group">
-                <input type="text" class="input-field" placeholder="User ID" required><br>
-                <input type="password" class="input-field" placeholder="Enter Password" required><br>
+                <input type="text" class="input-field" placeholder="Username" required><br>
+                <input type="password" class="input-field" placeholder="Password" required><br>
                 <input type="checkbox" class="check-box"><span>Remember Password</span><br>
                 <button type="submit" class="submit-btn">Login</button>
             </form>
             <form id="register" class="input-group">
-                <input type="text" class="input-field" placeholder="User ID" required><br>
-                <input type="email" class="input-field" placeholder="email ID" required><br>
-                <input type="password" class="input-field" placeholder="Enter Password" required><br>
+                <input type="text" id="first-name" class="input-field" placeholder="First name" required>
+                <input type="text" id="last-name" class="input-field" placeholder="Last Name" required><br>
+                <input type="text" class="input-field" placeholder="Username" required><br>
+                <input type="email" class="input-field" placeholder="Email" required><br>
+                <input type="number" class="input-field" placeholder="Tel. Number"><br>
+                <input type="password" class="input-field" placeholder="Password" required><br>
                 <input type="password" class="input-field" placeholder="Confirm Password" required><br>
                 <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span><br>
                 <button type="submit" class="submit-btn">Register</button>
             </form>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
-<script>
-var x=document.getElementById("login")
-var y=document.getElementById("register")
-var z=document.getElementById("btn")
 
-function register(){
-    x.style.left="-400px";
-    y.style.left="50px";
-    z.style.left="110px";
-}
-
-
-function login(){
-    x.style.left="50px";
-    y.style.left="450px";
-    z.style.left="0";
-}
-</script>
 </html>
