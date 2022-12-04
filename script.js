@@ -1,15 +1,33 @@
-let x=document.getElementById("login")
-let y=document.getElementById("register")
-let z=document.getElementById("btn")
+let x = document.getElementById("login")
+let y = document.getElementById("register")
+let z = document.getElementById("btn")
 
-function register(){
-    x.style.left="-400px";
-    y.style.left="50px";
-    z.style.left="110px";
+document.head = document.head || document.getElementsByTagName('head')[0];
+
+function changeFavicon(src) {
+    var link = document.createElement('link'),
+        oldLink = document.getElementById('dynamic-favicon');
+        link.id = 'dynamic-favicon';
+        link.rel = 'icon';
+    link.href = src;
+    if (oldLink) {
+        document.head.removeChild(oldLink);
+    }
+    document.head.appendChild(link);
 }
 
-function login(){
-    x.style.left="50px";
-    y.style.left="450px";
-    z.style.left="0";
+function register() {
+    x.style.left = "-400px";
+    y.style.left = "50px";
+    z.style.left = "110px";
+    document.title = "Register"
+    changeFavicon('images/register.png');
+}
+
+function login() {
+    x.style.left = "50px";
+    y.style.left = "450px";
+    z.style.left = "0";
+    document.title = "Login"
+    changeFavicon('images/login.png');
 }
